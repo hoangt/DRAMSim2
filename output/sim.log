@@ -1,0 +1,135 @@
+== Loading trace file 'traces/k6_aoe_02_short.trc' == 
+CC VISFILENAME=output/trace
+== Loading device model file 'ini/DDR4_micron_512M_16_x4_sg83.ini' == 
+== Loading system model file 'ddr4_system.ini' == 
+===== MemorySystem 0 =====
+CH. 0 TOTAL_STORAGE : 32768MB | 2 Ranks | 16 Devices per rank
+writing vis file to output/trace.2.vis
+DRAMSim2 Clock Frequency =666666666Hz, CPU Clock Frequency=666666666Hz
+ =======================================================
+ ============== Printing Statistics [id:0]==============
+   Total Return Transactions : 0 (0 bytes) aggregate average bandwidth 0.000GB/s
+      -Rank   0 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 4): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 5): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 6): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 7): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 8): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 9): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 10): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 11): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 12): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 13): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 14): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 15): 0.000 GB/s		-nan ns
+ == Power Data for Rank        0
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   1 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 4): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 5): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 6): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 7): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 8): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 9): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 10): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 11): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 12): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 13): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 14): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 15): 0.000 GB/s		-nan ns
+ == Power Data for Rank        1
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+
+ == Pending Transactions : 0 (0)==
+==== Channel [0] ====
+ =======================================================
+ ============== Printing Statistics [id:0]==============
+   Total Return Transactions : 100 (6400 bytes) aggregate average bandwidth 3.974GB/s
+      -Rank   0 : 
+        -Reads  : 62 (3968 bytes)
+        -Writes : 2 (128 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.318 GB/s		65.250 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.318 GB/s		84.750 ns
+        -Bandwidth / Latency  (Bank 4): 0.318 GB/s		118.125 ns
+        -Bandwidth / Latency  (Bank 5): 0.318 GB/s		66.562 ns
+        -Bandwidth / Latency  (Bank 6): 0.159 GB/s		45.750 ns
+        -Bandwidth / Latency  (Bank 7): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 8): 0.159 GB/s		99.750 ns
+        -Bandwidth / Latency  (Bank 9): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 10): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 11): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 12): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 13): 0.318 GB/s		118.875 ns
+        -Bandwidth / Latency  (Bank 14): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 15): 0.636 GB/s		68.531 ns
+ == Power Data for Rank        0
+   Average Power (watts)     : 2.965
+     -Background (watts)     : 0.866
+     -Act/Pre    (watts)     : 0.673
+     -Burst      (watts)     : 1.426
+     -Refresh    (watts)     : 0.000
+      -Rank   1 : 
+        -Reads  : 36 (2304 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.159 GB/s		57.750 ns
+        -Bandwidth / Latency  (Bank 3): 0.318 GB/s		146.625 ns
+        -Bandwidth / Latency  (Bank 4): 0.318 GB/s		130.875 ns
+        -Bandwidth / Latency  (Bank 5): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 6): 0.318 GB/s		70.312 ns
+        -Bandwidth / Latency  (Bank 7): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 8): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 9): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 10): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 11): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 12): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 13): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 14): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 15): 0.318 GB/s		79.312 ns
+ == Power Data for Rank        1
+   Average Power (watts)     : 1.887
+     -Background (watts)     : 0.736
+     -Act/Pre    (watts)     : 0.356
+     -Burst      (watts)     : 0.795
+     -Refresh    (watts)     : 0.000
+ ---  Latency list (13)
+       [lat] : #
+       [20-29] : 6
+       [30-39] : 27
+       [40-49] : 18
+       [50-59] : 3
+       [60-69] : 17
+       [70-79] : 8
+       [80-89] : 2
+       [90-99] : 6
+       [100-109] : 2
+       [110-119] : 1
+       [120-129] : 5
+       [160-169] : 2
+       [170-179] : 1
+
+ == Pending Transactions : 0 (1000)==
+//// Channel [0] ////
